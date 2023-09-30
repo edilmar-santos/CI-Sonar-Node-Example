@@ -8,3 +8,7 @@ function isEvenOrOdd(param) {
 } 
 
 module.exports = isEvenOrOdd;
+
+console.log(isEvenOrOdd(2)); // Even
+console.log(isEvenOrOdd(3)); // Odd
+console.log(isEvenOrOdd('a')); // Error: the parameter is not a number
