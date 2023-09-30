@@ -5,9 +5,9 @@ test('Should return error message when is not a number', () => {
 })
 
 test('Should return EVEN', () => {
-    expect(isEvenOrOdd(2)).toBe("Even");
+    expect(isEvenOrOdd(3)).toBe("Even");
 })
 
 test('Should return ODD', () => {
-    expect(isEvenOrOdd(3)).toBe("Odd");
+    expect(isEvenOrOdd(2)).toBe("Odd");
 })
